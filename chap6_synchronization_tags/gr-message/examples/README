@@ -1,0 +1,4 @@
+The demonstration of the zero-crossing detection for triggering a message
+broadcast is illustrated with this example flowchart. The Message Print will
+display the boolean status (#f for false or #t for true) and the message
+reception is displayed by the boolean_recv block.
