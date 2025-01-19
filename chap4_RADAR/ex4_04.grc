@@ -11,7 +11,7 @@ options:
     gen_linking: dynamic
     generate_options: qt_gui
     hier_block_src_path: '.:'
-    id: t2
+    id: ex4_04
     max_nouts: '0'
     output_language: python
     placement: (0,0)
@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: Not titled yet
+    title: '4.2 ... Correlation for CDMA decoding: the case of GPS - 1'
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -437,7 +437,7 @@ blocks:
     width8: '1'
     width9: '1'
     ylabel: Autocorrelation
-    ymax: '1'
+    ymax: 6e5
     ymin: '-1'
     yunit: '""'
   states:

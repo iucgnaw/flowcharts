@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: chap1 example4
+    title: Figure 1.8 Complex signal
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -121,9 +121,9 @@ blocks:
     entags: 'True'
     grid: 'False'
     gui_hint: ''
-    label1: Signal 1
+    label1: Signal 1 - I
     label10: Signal 10
-    label2: Signal 2
+    label2: Signal 1 - Q
     label3: Signal 3
     label4: Signal 4
     label5: Signal 5

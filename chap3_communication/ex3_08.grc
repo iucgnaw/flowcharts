@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: Not titled yet
+    title: 3.4 ... ZeroMQ buffer size and impact on closed loop control bandwidth
     window_size: (1000,1000)
   states:
     bus_sink: false

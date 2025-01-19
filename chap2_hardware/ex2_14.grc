@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: chapter 2 example 14
+    title: Figure 2.20 Various modulation schemes of same input signal
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -307,10 +307,10 @@ blocks:
     grid: 'False'
     gui_hint: ''
     label: Relative Gain
-    label1: ''
+    label1: FM
     label10: ''''''
-    label2: ''''''
-    label3: ''''''
+    label2: PM
+    label3: AM
     label4: ''''''
     label5: ''''''
     label6: ''''''
@@ -383,10 +383,10 @@ blocks:
     entags: 'True'
     grid: 'False'
     gui_hint: ''
-    label1: Signal 1
+    label1: FM
     label10: Signal 10
-    label2: Signal 2
-    label3: Signal 3
+    label2: PM
+    label3: AM
     label4: Signal 4
     label5: Signal 5
     label6: Signal 6
@@ -438,8 +438,8 @@ blocks:
     width8: '1'
     width9: '1'
     ylabel: Amplitude
-    ymax: '1'
-    ymin: '-1'
+    ymax: '2'
+    ymin: '-2'
     yunit: '""'
   states:
     bus_sink: false

@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: ''
+    title: Figure 1.11 143.05 MHz GRAVES RADAR signal aliased to 56.95 MHz
     window_size: 1280, 1024
   states:
     bus_sink: false
@@ -262,7 +262,7 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    ant0: A
+    ant0: '"RX2"'
     ant1: A
     ant10: ''
     ant11: ''
@@ -359,8 +359,8 @@ blocks:
     center_freq8: '0'
     center_freq9: '0'
     clock_rate: '0.0'
-    clock_source0: external
-    clock_source1: external
+    clock_source0: ''
+    clock_source1: ''
     clock_source2: ''
     clock_source3: ''
     clock_source4: ''
@@ -432,7 +432,7 @@ blocks:
     dc_offs_enb7: default
     dc_offs_enb8: default
     dc_offs_enb9: default
-    dev_addr: addr0=192.168.12.2
+    dev_addr: '""'
     dev_args: '""'
     gain0: '6'
     gain1: '6'
@@ -664,8 +664,8 @@ blocks:
     rx_agc8: Default
     rx_agc9: Default
     samp_rate: samp_rate
-    sd_spec0: A:AB B:AB
-    sd_spec1: A:AB B:AB
+    sd_spec0: ''
+    sd_spec1: ''
     sd_spec2: ''
     sd_spec3: ''
     sd_spec4: ''
@@ -677,8 +677,8 @@ blocks:
     stream_args: ''
     stream_chans: '[]'
     sync: sync
-    time_source0: external
-    time_source1: external
+    time_source0: ''
+    time_source1: ''
     time_source2: ''
     time_source3: ''
     time_source4: ''

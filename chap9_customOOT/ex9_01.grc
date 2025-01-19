@@ -11,7 +11,7 @@ options:
     gen_linking: dynamic
     generate_options: qt_gui
     hier_block_src_path: '.:'
-    id: chap9_01
+    id: ex9_01
     max_nouts: '0'
     output_language: python
     placement: (0,0)
@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: Chapter 9 ex 01
+    title: Figure 9.1 Correlation of delayed signal
     window_size: (1000,1000)
   states:
     bus_sink: false

@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: chapter1 demo1
+    title: Figure 1.16 Demonstration of quantization limit
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -397,11 +397,11 @@ blocks:
     grid: 'False'
     gui_hint: ''
     label: Relative Gain
-    label1: ''
+    label1: Signal 1 - Float
     label10: ''''''
-    label2: ''''''
-    label3: ''''''
-    label4: ''''''
+    label2: Signal 1 - Quantization 8 bits
+    label3: Signal 1 - Quantization 5 bits
+    label4: Signal 1 - Quantization 3 bits
     label5: ''''''
     label6: ''''''
     label7: ''''''
@@ -473,11 +473,11 @@ blocks:
     entags: 'True'
     grid: 'False'
     gui_hint: ''
-    label1: Signal 1
+    label1: Signal 1 - Float
     label10: Signal 10
-    label2: Signal 2
-    label3: Signal 3
-    label4: Signal 4
+    label2: Signal 1 - Quantization 8 bits
+    label3: Signal 1 - Quantization 5 bits
+    label4: Signal 1 - Quantization 3 bits
     label5: Signal 5
     label6: Signal 6
     label7: Signal 7
@@ -545,24 +545,24 @@ connections:
 - [blocks_add_xx_0, '0', blocks_multiply_const_vxx_0, '0']
 - [blocks_add_xx_0, '0', blocks_multiply_const_vxx_0_1, '0']
 - [blocks_add_xx_0, '0', blocks_multiply_const_vxx_0_2, '0']
-- [blocks_add_xx_0, '0', qtgui_freq_sink_x_0, '3']
-- [blocks_add_xx_0, '0', qtgui_time_sink_x_0, '3']
+- [blocks_add_xx_0, '0', qtgui_freq_sink_x_0, '0']
+- [blocks_add_xx_0, '0', qtgui_time_sink_x_0, '0']
 - [blocks_float_to_short_0, '0', blocks_short_to_float_0, '0']
 - [blocks_float_to_short_0_0, '0', blocks_short_to_float_0_0, '0']
 - [blocks_float_to_short_0_1, '0', blocks_short_to_float_0_1, '0']
 - [blocks_multiply_const_vxx_0, '0', blocks_float_to_short_0, '0']
 - [blocks_multiply_const_vxx_0_0, '0', blocks_throttle2_0, '0']
-- [blocks_multiply_const_vxx_0_0_0, '0', qtgui_freq_sink_x_0, '1']
-- [blocks_multiply_const_vxx_0_0_0, '0', qtgui_time_sink_x_0, '1']
+- [blocks_multiply_const_vxx_0_0_0, '0', qtgui_freq_sink_x_0, '2']
 - [blocks_multiply_const_vxx_0_0_0, '0', qtgui_time_sink_x_0, '2']
-- [blocks_multiply_const_vxx_0_0_1, '0', qtgui_freq_sink_x_0, '2']
+- [blocks_multiply_const_vxx_0_0_1, '0', qtgui_freq_sink_x_0, '3']
+- [blocks_multiply_const_vxx_0_0_1, '0', qtgui_time_sink_x_0, '3']
 - [blocks_multiply_const_vxx_0_1, '0', blocks_float_to_short_0_0, '0']
 - [blocks_multiply_const_vxx_0_2, '0', blocks_float_to_short_0_1, '0']
 - [blocks_short_to_float_0, '0', blocks_multiply_const_vxx_0_0, '0']
 - [blocks_short_to_float_0_0, '0', blocks_multiply_const_vxx_0_0_0, '0']
 - [blocks_short_to_float_0_1, '0', blocks_multiply_const_vxx_0_0_1, '0']
-- [blocks_throttle2_0, '0', qtgui_freq_sink_x_0, '0']
-- [blocks_throttle2_0, '0', qtgui_time_sink_x_0, '0']
+- [blocks_throttle2_0, '0', qtgui_freq_sink_x_0, '1']
+- [blocks_throttle2_0, '0', qtgui_time_sink_x_0, '1']
 
 metadata:
   file_format: 1

@@ -11,7 +11,7 @@ options:
     gen_linking: dynamic
     generate_options: qt_gui
     hier_block_src_path: '.:'
-    id: bin2softbits
+    id: ex8_01_withRRC
     max_nouts: '0'
     output_language: python
     placement: (0,0)
@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: chap 8 ex 01
+    title: Figure 8.8 Acquisition sequence, with Root Raised Cosine (RRC) Filter
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -131,7 +131,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/jmfriedt/sdr/sdr_book_wiley/jmf/spits2018/meteor/180501_12h50_after_resampler.bin
+    file: MeteorM2N_180501_17h52_after_resampler.sigmf-data
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
@@ -163,6 +163,27 @@ blocks:
     coordinate: [64, 312.0]
     rotation: 0
     state: true
+- name: blocks_throttle2_0
+  id: blocks_throttle2
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    ignoretag: 'True'
+    limit: auto
+    maximum: '0.1'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samples_per_second: samp_rate
+    type: complex
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [40, 208.0]
+    rotation: 0
+    state: enabled
 - name: digital_constellation_soft_decoder_cf_0
   id: digital_constellation_soft_decoder_cf
   parameters:
@@ -345,8 +366,9 @@ blocks:
 connections:
 - [analog_agc_xx_0, '0', root_raised_cosine_filter_0, '0']
 - [analog_rail_ff_0, '0', blocks_float_to_char_0, '0']
-- [blocks_file_source_0, '0', analog_agc_xx_0, '0']
+- [blocks_file_source_0, '0', blocks_throttle2_0, '0']
 - [blocks_float_to_char_0, '0', blocks_file_sink_0, '0']
+- [blocks_throttle2_0, '0', analog_agc_xx_0, '0']
 - [digital_constellation_soft_decoder_cf_0, '0', analog_rail_ff_0, '0']
 - [digital_costas_loop_cc_0, '0', digital_symbol_sync_xx_0, '0']
 - [digital_symbol_sync_xx_0, '0', digital_constellation_soft_decoder_cf_0, '0']

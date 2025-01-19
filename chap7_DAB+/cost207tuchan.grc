@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: cost207tuchan
+    title: 7.2.3.1 ... COST207 Typical Urban channel model
     window_size: (1000,1000)
   states:
     bus_sink: false

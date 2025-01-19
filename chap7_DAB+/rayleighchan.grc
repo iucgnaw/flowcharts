@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: rayleighchan
+    title: Figure 7.13 Rayleigh channel model
     window_size: (1000,1000)
   states:
     bus_sink: false

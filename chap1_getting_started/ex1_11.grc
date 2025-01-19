@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: Chapter1 Example11
+    title: Figure 1.17 Characterizing a (real) bandpass ﬁlter and playing its output on the sound card
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -81,7 +81,7 @@ blocks:
     comment: 'select a sampling rate
 
       compatible with the sound card'
-    value: '96000'
+    value: '48000'
   states:
     bus_sink: false
     bus_source: false

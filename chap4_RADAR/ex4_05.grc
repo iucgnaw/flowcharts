@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: chapter 4 example 5
+    title: '4.2 ... Correlation for CDMA decoding: the case of GPS - 2'
     window_size: (1000,1000)
   states:
     bus_sink: false

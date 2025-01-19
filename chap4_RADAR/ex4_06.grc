@@ -11,7 +11,7 @@ options:
     gen_linking: dynamic
     generate_options: qt_gui
     hier_block_src_path: '.:'
-    id: prn_xcorr_zeropadding
+    id: ex4_06
     max_nouts: '0'
     output_language: python
     placement: (0,0)
@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: PRN xcorr
+    title: Figure 4.27 Spectrum spreading carrier wave using GLFSR pseudo-random generator
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -903,7 +903,7 @@ blocks:
     entags: 'True'
     grid: 'False'
     gui_hint: ''
-    label1: Signal 1
+    label1: Correlation
     label10: Signal 10
     label2: Signal 2
     label3: Signal 3
@@ -983,7 +983,7 @@ blocks:
     alpha7: '1.0'
     alpha8: '1.0'
     alpha9: '1.0'
-    autoscale: 'False'
+    autoscale: 'True'
     axislabels: 'True'
     color1: blue
     color10: dark blue
@@ -1000,11 +1000,11 @@ blocks:
     entags: 'True'
     grid: 'False'
     gui_hint: ''
-    label1: Signal 1
+    label1: Ch 0 - I
     label10: Signal 10
-    label2: Signal 2
-    label3: Signal 3
-    label4: Signal 4
+    label2: Ch 0 - Q
+    label3: Ch 1 - I
+    label4: Ch 1 - Q
     label5: Signal 5
     label6: Signal 6
     label7: Signal 7

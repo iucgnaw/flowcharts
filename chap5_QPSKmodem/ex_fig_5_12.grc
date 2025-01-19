@@ -11,7 +11,7 @@ options:
     gen_linking: dynamic
     generate_options: qt_gui
     hier_block_src_path: '.:'
-    id: carrier_rec
+    id: ex_fig_5_12
     max_nouts: '0'
     output_language: python
     placement: (0,0)
@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: Not titled yet
+    title: Figure 5.12 Carrier frequency offset estimation
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -301,7 +301,7 @@ blocks:
       \        \tfreq = self.previous_freq\n        \t#print('Previous_freq = ', self.previous_freq[-1].astype(np.float))\
       \ \n        \t      \t\n        output_items[0][:] = np.round(freq).astype(int)\n\
       \        return len(output_items[0])\n"
-    affinity: '[8,9]'
+    affinity: ''
     alias: ''
     comment: ''
     fft_len: fft_length
