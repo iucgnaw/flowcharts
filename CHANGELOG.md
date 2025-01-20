@@ -53,7 +53,7 @@
 
 ##### Changed
 
-- Revised QT GUI Range f:Start to 87.
+- Revised QT GUI Range f|Start to 87.
 - Revised samp_rate decimation expressions, to follow consitent logic.
 
 #### ex2_14.grc
